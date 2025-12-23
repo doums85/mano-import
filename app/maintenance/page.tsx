@@ -1,8 +1,18 @@
 
 import React from 'react';
+import { Metadata } from "next";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
 import Link from 'next/link';
+
+export const metadata: Metadata = {
+    title: "Maintenance en cours",
+    description: "Le site est actuellement en maintenance. Nous revenons très vite.",
+    robots: {
+        index: false,
+        follow: false,
+    },
+};
 
 export default function MaintenancePage() {
     return (
