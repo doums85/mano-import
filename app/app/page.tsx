@@ -229,9 +229,8 @@ export default function ProfessionalRequestPage() {
                                         <div className="text-left">
                                             <p className="font-bold text-gray-800">Téléphone</p>
                                             <p className="text-gray-500 text-sm mt-1">
-                                                09 82 66 44 25<br />
-                                                07 85 01 33 84<br />
-                                                06 86 05 01 19
+                                             06 86 05 01 19   <br />
+                                               06 89 62 36 78
                                             </p>
                                         </div>
                                     </CardContent>
